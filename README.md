@@ -1,18 +1,3 @@
-<!--
-  PROJECT REPOSITORY README
-  Save this file as README.md inside your project repo.
-
-  This repo should contain ONLY the polebot_telemetry ROS 2 package
-  (polebot_ws/src/polebot_telemetry/ in your workspace) — not the base
-  platform packages, and not tongyi_canopen_driver.
-
-  Before pushing actual code/data to a public repo, confirm with your
-  supervisor(s) which parts are safe to publish.
-
-  Remaining placeholder to fill: {{PAK_NURJAMIL_GITHUB_LINK}} in the
-  Acknowledgments section, once you have it.
--->
-
 # Data Historian Polebot AMR
 
 Predictive analytics using ARIMA-XGBoost for an Autonomous Mobile Robot, using a condition-based switching mechanism validated on real hardware.
@@ -77,19 +62,19 @@ source install/setup.bash
 ## 1. Directory Structure
 
 ```
-polebot_telemetry/                          <-- repo root = ROS 2 ament_python package
-├── polebot_telemetry/                      <-- Python module (package source)
-│   ├── telemetry_logger.py                 <-- ETL: ROS 2 topics -> InfluxDB [ros2 run]
-│   ├── influx_bridge.py                    <-- InfluxDB read/write bridge [ros2 run]
-│   ├── system_recorder.py                  [ros2 run]
-│   ├── scenario_runner.py                  <-- C1-C7 scenario sequencer [ros2 run]
-│   ├── scenario_runner2.py                 <-- newer variant (run via python3)
+polebot_telemetry/                          
+├── polebot_telemetry/                      
+│   ├── telemetry_logger.py                 
+│   ├── influx_bridge.py                    
+│   ├── system_recorder.py                  
+│   ├── scenario_runner.py                  
+│   ├── scenario_runner2.py                 
 │   ├── run_all_scenarios.sh / run_all_scenarios_hw.sh
 │   ├── pzem_publisher.py, raw_pzem017.py, scan_pzem017.py,
-│   │   test_pzem017.py, set_shunt50a.py    <-- PZEM-017 power meter interface
+│   │   test_pzem017.py, set_shunt50a.py    
 │   ├── arima_predictor.py / arima_predictor_hw.py
 │   ├── xgboost_predictor.py / xgboost_predictor_hw.py
-│   ├── hybrid_switching_predictor.py / hybrid_switching_predictor_hw.py   <-- CBTS core logic
+│   ├── hybrid_switching_predictor.py / hybrid_switching_predictor_hw.py   
 │   ├── realtime_predictor_node.py
 │   ├── comparison_plot.py / comparison_plot_hw.py
 │   ├── hybrid_chart_split.py / hybrid_chart_split_hw.py
@@ -105,7 +90,6 @@ polebot_telemetry/                          <-- repo root = ROS 2 ament_python p
 │   └── polebot.urdf.xacro
 ├── worlds/
 │   └── depot.sdf, polman_workshop.sdf, warehouse.sdf
-├── meshes/                                 <-- robot 3D model (.stl, CAD source)
 ├── resource/
 ├── test/
 │   └── test_copyright.py, test_flake8.py, test_pep257.py
