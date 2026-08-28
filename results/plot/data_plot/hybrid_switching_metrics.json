@@ -1,0 +1,41 @@
+{
+  "dijalankan": "2026-06-11 01:45:35",
+  "skenario": "C7 — Mixed Switching Demo",
+  "metode": "Condition-Based Temporal Switching",
+  "total_rekaman": 1803,
+  "titik_statis": 1512,
+  "titik_dinamis": 291,
+  "persen_statis": 83.9,
+  "jumlah_transisi": 265,
+  "threshold_accel": 0.15,
+  "threshold_speed": 0.6,
+  "metrik_per_variabel": {
+    "batt_soc_percent": {
+      "MAE_hybrid": 0.0029,
+      "RMSE_hybrid": 0.0035,
+      "sMAPE_hybrid": 0.0,
+      "MAE_ARIMA_only": 0.0035,
+      "MAE_XGBoost_only": 0.0012,
+      "MAE_static_seg": 0.0033,
+      "MAE_dynamic_seg": 0.0011
+    },
+    "joint_P_total": {
+      "MAE_hybrid": 0.9373,
+      "RMSE_hybrid": 1.2755,
+      "sMAPE_hybrid": 93.6,
+      "MAE_ARIMA_only": 1.6715,
+      "MAE_XGBoost_only": 0.0244,
+      "MAE_static_seg": 1.1107,
+      "MAE_dynamic_seg": 0.0421
+    },
+    "odom_v_linear": {
+      "MAE_hybrid": 0.0468,
+      "RMSE_hybrid": 0.0647,
+      "sMAPE_hybrid": 93.45,
+      "MAE_ARIMA_only": 0.0832,
+      "MAE_XGBoost_only": 0.0013,
+      "MAE_static_seg": 0.0554,
+      "MAE_dynamic_seg": 0.0021
+    }
+  }
+}

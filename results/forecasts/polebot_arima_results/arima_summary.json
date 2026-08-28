@@ -1,0 +1,53 @@
+[
+  {
+    "field": "joint_P_total",
+    "label": "Total Motor Power (P_total)",
+    "n_data": 5288,
+    "p": 3,
+    "d": 1,
+    "q": 3,
+    "is_stationary": "False",
+    "adf_pvalue": 0.33497229339720946,
+    "mae": 2.9973941791611702,
+    "rmse": 3.5440481468905576,
+    "mape": 50.52995101628769,
+    "smape": 50.52995101628769,
+    "aic": 18864.350045239375,
+    "forecast_last": 6.400734346080102,
+    "forecast_unit": "Watt"
+  },
+  {
+    "field": "batt_soc_percent",
+    "label": "Battery State of Charge (SOC)",
+    "n_data": 8382,
+    "p": 2,
+    "d": 1,
+    "q": 3,
+    "is_stationary": false,
+    "adf_pvalue": 2.1494965921256136e-06,
+    "mae": 1.0468584388106277,
+    "rmse": 1.3355216558079899,
+    "mape": 1.7434996581023563,
+    "smape": 1.7434996581023563,
+    "aic": -33655.473468130556,
+    "forecast_last": 56.684008588582,
+    "forecast_unit": "%"
+  },
+  {
+    "field": "odom_v_linear",
+    "label": "Linear Velocity",
+    "n_data": 5101,
+    "p": 3,
+    "d": 1,
+    "q": 3,
+    "is_stationary": "False",
+    "adf_pvalue": 0.5368879694737739,
+    "mae": 0.14600154739012924,
+    "rmse": 0.16892387012260507,
+    "mape": 49.1715935222393,
+    "smape": 49.1715935222393,
+    "aic": -4253.831962372024,
+    "forecast_last": 0.33182134203395275,
+    "forecast_unit": "m/s"
+  }
+]

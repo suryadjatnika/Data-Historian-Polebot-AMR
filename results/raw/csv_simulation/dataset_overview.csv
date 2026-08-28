@@ -1,0 +1,7 @@
+condition_id,condition_name,class,velocity_profile,n_samples,duration_seconds,SOC_initial_pct,SOC_final_pct,SOC_drop_pct,motor_power_mean_W,motor_power_max_W,velocity_mean_ms,velocity_max_ms
+1,baseline,Static,0.3 m/s constant,1800,1800,99.9800,91.8230,8.1570,2.7827,6.1597,0.1397,0.3000
+2,high_load,Dynamic,0.7 m/s constant,1800,1800,91.7860,82.5800,9.2060,2.7885,14.4576,0.1347,0.7000
+3,stop_and_go,Dynamic,0.5 m/s variable,1800,1800,82.4700,75.7260,6.7440,2.8614,14.3314,0.0303,0.7000
+4,creep,Static,0.1 m/s constant,1800,1800,75.7100,71.3900,4.3200,1.1732,9.8929,0.0422,0.5000
+5,burst,Dynamic,0.6 m/s with rapid acceleration,1800,1800,71.4222,64.2330,7.1892,1.8051,12.3295,0.0862,0.6000
+6,mixed,Mixed,Variable 0.0–0.6 m/s,1800,1800,64.2300,57.2920,6.9380,2.5452,12.3105,0.1269,0.6000

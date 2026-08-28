@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy>=1.24
+statsmodels>=0.14
+xgboost>=2.0
+influxdb-client>=1.36
+matplotlib>=3.7
+minimalmodbus>=2.1
+pyserial>=3.5
+pyyaml>=6.0
+
+# ROS 2 Python dependencies below are NOT installed via pip -- they come
+# with a standard ROS 2 Jazzy desktop install (via apt):
+# rclpy, sensor_msgs, geometry_msgs, nav_msgs, std_msgs, message_filters

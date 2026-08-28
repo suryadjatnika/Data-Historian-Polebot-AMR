@@ -1,0 +1,38 @@
+============================================================
+HASIL ARIMA — Sistem Data Historian Polebot AMR
+Dijalankan: 2026-06-17 00:05:22
+============================================================
+
+Variabel : Total Motor Power (P_total)
+Field    : joint_P_total
+Model    : ARIMA(3,1,3)
+Data pts : 5288
+Stasioner: Tidak (p-value=0.3350)
+MAE      : 2.9974
+RMSE     : 3.5440
+sMAPE    : 50.53%
+AIC      : 18864.35
+----------------------------------------
+
+Variabel : Battery State of Charge (SOC)
+Field    : batt_soc_percent
+Model    : ARIMA(2,1,3)
+Data pts : 8382
+Stasioner: Tidak (p-value=0.0000)
+MAE      : 1.0469
+RMSE     : 1.3355
+sMAPE    : 1.74%
+AIC      : -33655.47
+----------------------------------------
+
+Variabel : Linear Velocity
+Field    : odom_v_linear
+Model    : ARIMA(3,1,3)
+Data pts : 5101
+Stasioner: Tidak (p-value=0.5369)
+MAE      : 0.1460
+RMSE     : 0.1689
+sMAPE    : 49.17%
+AIC      : -4253.83
+----------------------------------------
+

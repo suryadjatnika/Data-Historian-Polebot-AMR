@@ -1,0 +1,29 @@
+[
+  {
+    "field": "joint_P_total",
+    "label": "Total Motor Power (P_total)",
+    "n_data": 10949,
+    "mae": 0.021487047840379928,
+    "rmse": 0.04381475288231503,
+    "smape": 0.998155732496431,
+    "top_feature": "joint_load_ratio"
+  },
+  {
+    "field": "batt_soc_percent",
+    "label": "Battery State of Charge (SOC)",
+    "n_data": 10949,
+    "mae": 5.472397034299129,
+    "rmse": 6.34517049760045,
+    "smape": 8.500596294335175,
+    "top_feature": "batt_soc_percent_lag10"
+  },
+  {
+    "field": "odom_v_linear",
+    "label": "Linear Velocity",
+    "n_data": 10949,
+    "mae": 0.01729184992297207,
+    "rmse": 0.0424313503342055,
+    "smape": 31.627930106787666,
+    "top_feature": "joint_load_ratio"
+  }
+]
